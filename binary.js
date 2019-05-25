@@ -9,8 +9,8 @@ function binarySearch(arr, value) {
     let mid = 0;
     
     while (low <= high){
-        mid = Math.floor((high + low) / 2); // Находим среднее значения индекса
-        // Если искомое значение имеет индекс = середине(mid), то выводим значение середины(mid)
+        mid = Math.floor((high + low) / 2); // Находим среднее значение массива
+        // Если искомое значение = середине(mid), то выводим значение середины(mid)
         if (arr[mid] === value) {
             return arr[mid];
         } else if (value > arr[mid]) {
