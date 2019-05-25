@@ -4,7 +4,7 @@ let array = [1,192,163,99,24,25,65,777,1,83, 12];
 console.log(array);
 // arr - наш массив элементов, value искомое число
 function binarySearch(arr, value) {
-    let high = arr.length - 1; // Чтобы найти последний индекс массива
+    let high = arr.length - 1;
     let low = 0;
     let mid = 0;
     
