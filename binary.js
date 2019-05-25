@@ -8,7 +8,7 @@ function binarySearch(arr, value){
     
     while (low <= high){
         mid = Math.floor((high + low) / 2); // Находим среднее значения индекса
-        if (arr[mid] === value){
+        if (arr[mid] === value) {
             return arr[mid];
         }
     }
